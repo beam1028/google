@@ -1,0 +1,140 @@
+/* COMMON */
+body {
+  display: contents;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+
+/* NAVBAR */
+.navbar {
+  height: 42px;
+  float: right;
+  margin: 10px 20px 0 0px;
+}
+.nav-item {
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #5f6368;
+}
+.navbar a {
+  margin-right: 10px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.nav-img {
+  vertical-align: middle;
+  padding: 5px;
+}
+.nav-hov {
+  padding: 13px 14px;
+}
+.nav-hov, .nav-img {
+  border-radius: 50%;
+}
+.nav-hov:hover, .nav-img:hover {
+  background-color: #f0f0f0;
+}
+
+
+/* CONTENT */
+.main {
+  margin-top: 165px;
+  text-align: center;
+}
+.input-area {
+  width: 560px;
+  position: relative;
+  margin: 0 auto;
+}
+.input-box {
+  width: 480px;
+  height: 42px;
+  background-color: #fff;
+  border: none;
+  border-radius: 22px;
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  outline: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.search-icon {
+  height: 16px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin: auto;
+  color: #9aa0a6;
+}
+.mic-item {
+  height: 16px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
+  color: #9aa0a6;
+}
+.button-area {
+  margin-top: 25px;
+}
+.button {
+  width: 112px;
+  height: 112px;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+}
+.button:hover {
+  background-color: #e8e8e9;
+}
+.button-info-area {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 3px;
+  color: #5f6368;
+  visibility: hidden;
+}
+.button-info-area .button-info {
+  margin-top: calc(50% - (16px / 2));
+}
+.button:hover .button-info-area{
+  visibility: visible;
+}
+.button:hover .button-info-area:hover {
+  background-color: #d3d3d5;
+}
+.button-icon-area {
+  width: 48px;
+  height: 48px;
+  background-color: #f1f3f4;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.button-icon {
+  color: #9aa0a6;
+  font-size: 20px;
+  margin-top: calc(50% - (21px / 2));
+}
+.button-text {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  color: #000;
+  font-size: 13px;
+}
